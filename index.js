@@ -32,7 +32,7 @@ import './style.css';
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
     const fifteen = inventors.filter(function(inventor){
-      if(inventor.year >= 1500 && invertor.year < 1600) {
+      if(inventor.year >= 1500 && inventor.year < 1600) {
         return true;
       }
     });
